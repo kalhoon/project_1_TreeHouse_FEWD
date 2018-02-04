@@ -69,13 +69,21 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 30%;
+  border: 2px solid #000000;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
+.goals-image {
+  width: 125px;
+  height: 125px;
+  border-radius: 15%;
+  border: 2px solid #000000;
+  
+}
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -86,7 +94,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: #ffffff;
 }
 .card {
   margin: 30px;
@@ -99,7 +107,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #1ab0c2;
 }
 
 ul.skills {
@@ -110,14 +118,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #1ab0c2;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #284cd8;
 }
 
 footer {
